@@ -1,28 +1,76 @@
-/* let a = "carlos";
-let b = "alexandre";
-let idade = 17;
-
-
-function podeDirigir () {
-    console.log("pode Dirigir");    
-};
-
-function naoPodeDirigir () {
-    console.log("nao Pode Dirigir");    
-};
-
-
-for (let idade = 0; idade < 22; idade++) {
-    if( idade > 18 ) {
-        podeDirigir(); 
-    } else {
-        naoPodeDirigir();
-    }
+*{
+ margin: 0;   
+ padding: 0;
 }
 
-// Imprime os números de 1 a 5
-let i = 1;
-while (i <= 5) {
-  console.log("Número (while):", i);
-  i++;
-} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+div {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-style: 28px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #4a90e2 ;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+ background-color: #357ABD;
+}
+
+#mensagem {
+    margin: 10px;
+    color: green;
+}
+#mensagemFracaso {
+    margin: 10px;
+    color: red;
+}
